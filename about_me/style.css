@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+    width: auto;
+    background: #000000;
+    transition: background 1s ease-in-out;
+}
+
+.reverse {
+    background: #ffffff;
+}
+
+body {
+    background: transparent;
+    color: white;
+}
+
+#erialPic {
+    width: 350px;
+    height: auto;
+}
