@@ -5,16 +5,32 @@ html {
     transition: background 1s ease-in-out;
 }
 
+body {
+    background: transparent;
+    color: white;
+    transition: color 1s ease-in-out;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
 .reverse {
     background: #ffffff;
 }
 
-body {
-    background: transparent;
-    color: white;
+.dark-text {
+    color:#000000
 }
 
 #erialPic {
     width: 350px;
     height: auto;
+    border-radius: 10px;
+}
+
+.darkest-cheese {
+    color: rgb(134, 134, 0)
 }
