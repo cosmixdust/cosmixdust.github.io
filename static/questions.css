@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Code New Roman';
+    src: url('./fonts/Code\ New\ Roman.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    background: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-end;
+    margin: 0;
+    width: 100vw;
+}
+
+h2,
+p {
+    font-family: 'Code New Roman';
+    font-size: 1em;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#btn {
+    font-family: 'Code New Roman';
+}
+
+#website {
+    color: #95f8f8;
+}
+
+#kae {
+    color: #ff7f50;
+}
+
+#cat {
+    color: #f887f8;
+}
+
+#erial {
+    color: #fd5959;
+}
+
+#advice {
+    animation: fadeInOut 4s infinite;
+    font-family: 'Code New Roman';
+    font-weight: normal;
+    opacity: 0;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Code New Roman';
+  src: url('./fonts/Code\ New\ Roman.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  background: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-end;
+  margin: 0;
+  width: 100vw;
+}
+
+#randWords {
+  color: #f0ffff;
+  font-family: 'Code New Roman';
+  font-size: 2rem;
+  font-weight: normal;
+  left: 50%;
+  margin-right: -50%;
+  padding: 1%;
+  position: absolute;
+  text-align: center;
+  text-shadow:
+    0 0 2px #f0ffff,
+    0 0 48px #207c37,
+    0 0 196px #289243c7;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Two equal columns */
+}
+
+#questions {
+  font-family: 'Code New Roman';
+  font-weight: normal;
+  margin: 1%;
+}
+
+#reload {
+  animation: fadeInOut 4s infinite;
+  font-family: 'Code New Roman';
+  font-weight: normal;
+  padding-right: 1%;
+  text-align: right;
+  opacity: 0;
+}
+
+@keyframes fadeInOut {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}

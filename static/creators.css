@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Code New Roman';
+    src: url('./fonts/Code\ New\ Roman.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    background: #1e1e1e;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Code New Roman';
+    padding: 10px;
+}
+
+p {
+    font-family: 'Code New Roman';
+    font-size: 1em;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    padding-right: 10%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+#btn {
+    font-family: 'Code New Roman';
+}
+
+#website {
+    color: #95f8f8;
+}
+
+#cheese {
+    color: #f8db35;
+}
+
+#github {
+    color: #e0e0e0;
+}
+
+#youtube {
+    color: #FF0000;
+}
+
+#twitter {
+    color: #00acee;
+}
+
+#discord{
+    color: #5865F2;
+}
+
+#twitch {
+    color: #9146FF;
+}
+
+#marriagebot {
+    color: #cbf3f5;
+}
+
+#flower {
+    color: #ff00009b;
+}
+
+#vfl {
+    color: #ff8c00;
+}
+
+#lyre {
+    color: #fa88df;
+}
+
+#lynx {
+    color: #d6c192;
+}
+
+#advice {
+    animation: fadeInOut 4s infinite;
+    font-family: 'Code New Roman';
+    font-weight: normal;
+    opacity: 0;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+}
